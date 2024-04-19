@@ -1,0 +1,317 @@
+Title,Content
+Article 7,"Some photographers enjoy portraiture, where they can capture the essence of a person; others enjoy photographing action at a football game, or birds soaring through the air, or the intimate gaze shared by a newlywed couple.
+Me? I like to shrink things.
+I’m talking about tilt-shift photography, a genre that seems to have gained in popularity over the last handful of years. It’s all about taking a photograph of a real-world scene and making it look like a miniature scene. Highly detailed miniatures have always fascinated me, so tilt-shift photography was a natural draw. The White House? Shrink it. Piccadilly Circus? Make it Lilliput Lane! 
+What’s not to love?
+Below, I’ve shared all the basics of tilt-shift photography. That way, you can learn how to create a miniature effect just like mine – either in-camera or with post-processing. 
+Let’s dive right in! 
+Tilt-shift photography involves applying a miniaturization effect to the image, which makes the scene look like a toy model:
+As you can see in the example above, the tilt-shift effect relies on both foreground and background blurring to create the illusion of a small world.
+Now, tilt-shift photography can be done in two broad ways:
+I recommend the post-processing route, but it’s worth mentioning that you don’t even need to own Photoshop (or any editing program) to make a tilt-shift photo. Tiltshiftmaker.com has a free service that lets you create the effect with an uploaded photo. And if you want a bit more control, you can always use Fotor’s online tilt-shift feature. 
+Like anything in photography, the tilt-shift effect can be done, but can it be done well? That’s the question. You can’t use any random photo – instead, you must choose the right kind of image. And once a candidate photo is picked, the tilt-shift post-processing procedure must also be done correctly.
+So what constitutes a good photo for a tilt-shift treatment? Here’s what I’ve discovered:
+Now, if you don’t have any aerial images in your portfolio, or you simply don’t enjoy shooting aerials, can you still do tilt-shift photography? Yes, absolutely! But I recommend getting as high off the ground as possible, even if it just means shooting at eye level. And for the most convincing effects, you’ll definitely need to experiment with different subjects and scenes. 
+One quick tip: Make sure you get far back from the objects in your scene so that everything feels far away from your lens. That way, even if you’re not shooting from above, your shot will have a clear sense of scale!
+Once you’ve selected an image, then the tilt-shift treatment can begin. I use Photoshop, and while I won’t go into too much depth here, I’ll give you a brief overview of the process. 
+First, you’ll want to determine your point of interest. This is the most important part of the shot – it’s where the viewer will look when they encounter the image. My recommendation is to ensure your point of interest is eye-catching from the get-go: a shiny building, a soaring church spire, etc.
+Next, you’ll want to duplicate your background layer (that way, you can always work on the copied layer – and if you mess up, or you want to start over, you can just make a new copy of the background layer and try again).
+Make sure your duplicate layer is selected, then choose Filter>Blur Gallery>Tilt-Shift.
+The Tilt-Shift dialog will appear, and you should click on the central circle and drag it to your point of interest to ensure the effect radiates from the right spot.
+You can also adjust the blur intensity by dragging the Blur slider on the right-hand side, and you can drag the different tool guidelines to make the blur encroach on your point of interest more (or less) tightly.
+When you like the effect, go ahead and click OK.
+Next, I like to apply a Hue/Saturation adjustment (Image>Adjustments>Hue/Saturation), where I boost the Master Saturation slider to around +30. 
+Sometimes, I’ll also boost the saturation of select colors – basically, the colors that I want to pop, such as the greens of the grass and trees, the reds of bright cars, etc. (In miniature models, colors tend to be very bold and saturated, hence this step.)
+Finally, using the Curves tool (Image>Adjustments>Curves), I’ll enhance the contrast of the image. Here, I generally just boost the right-hand side of the curve, thereby intensifying the light parts of the image while leaving the shadows relatively detailed.
+And that’s pretty much it! You can always play around with additional adjustments, but the above workflow should get you a convincing tilt-shift photo.
+If you’ve made it this far, I’m sure you’ll agree with me that tilt-shift photography can be a ton of fun!
+It’s also a great way to turn relatively straightforward images into something much more compelling, without investing in expensive gear. 
+Like I said, not every image is a good candidate for tilt-shift photography, but it’s definitely worth playing around to see what you can create! Don’t just follow my advice; instead, experiment with all sorts of images. Maybe you’ll hit upon a new kind of photo that works great with the tilt-shift effect.
+Of course, we’d love to see the images you create – so be sure to share your favorite tilt-shift shots in the comments below!
+Patrick Ashley is the founder and chief blogger of Tiltshiftable, a blog dedicated to informing and teaching others about the technique of tilt-shift photography.
+....................................."
+Article 8,"This article was updated in March 2024 with contributions from Megan Kennedy and Jaymes Dempsey.
+Vignettes are a great way to add a bit of extra oomph to your images. They help keep the viewer focused on the main subject – while de-emphasizing the edges of the frame. 
+Many photographers, myself included, regularly apply vignettes to their images. But while many programs (such as Lightroom) include a straightforward vignetting tool, creating a vignette in Photoshop is a bit more complicated.
+Fortunately, Photoshop is a very sophisticated program, and there is not just one, but a handful of methods for adding vignettes to your files. 
+In this article, I’ll share three of my favorite ways to apply the effect. By the time you’re finished reading, you’ll be able to apply a vignette to any digital photograph quickly and easily, and you’ll even be able to customize the shape and intensity as needed.
+Let’s get started!
+In photography, a vignette is any shadowy darkness that appears around the periphery of an image. Here’s a very extreme example:
+Here’s a much more subtle, realistic example:
+Now, vignetting can occur for several reasons.
+For instance, optical vignetting is caused by the physics of wide-aperture lenses. Less light reaches the edges of the camera sensor, and as a result, you get a darkening effect at the edge of the frame. Many post-processing programs offer optical modules designed to counteract specific vignetting effects created by specific lenses – but that’s a topic for another article!
+The type of vignetting we’re interested in is artificial vignetting – where you create vignetting yourself using a program such as Photoshop.
+As I mentioned above, Photoshop isn’t the only program you can use to create a vignette. In fact, Photoshop is unusual in that it doesn’t include an obvious, easy-to-access vignetting tool. But adding a vignette is still pretty simple, as I’ll explain below.
+Vignetting can be a contentious topic in photographic circles. Some photographers love vignettes, while others loathe them. 
+But as photography has evolved, applying artificial vignettes in Photoshop has become a useful compositional device. Vignettes are an enduring photographic technique that can add to the gravitas of an image by creating a sense of atmosphere, age, or depth.
+Personally, I think a restrained vignette can add to an image, especially if the composition includes a main subject toward the center of the shot. If the vignette is present but not immediately obvious to the viewer, it can subtly yet effectively emphasize specific parts of your photo. 
+The key word, however, is “subtle.” As soon as the vignette becomes perceptible to the viewer, it detracts from the image. So have fun creating your vignette – but don’t go overboard!
+There are quite a few ways to create a vignette in Photoshop, each offering various levels of customizability. Today, I’m going to cover the three that I recommend the most. 
+These methods are simple, easy to apply, and will do a great job of creating a customizable vignette effect.
+If you’re looking for a quick way to create a vignette, then this method is a perfect choice. 
+To start off, open your image in Photoshop. I’m going to use this lavender photo, which has already been processed but doesn’t yet feature a vignette:
+In Photoshop, it’s best to edit your files non-destructively; that way, you can go back and adjust your original file if required. 
+Standard Photoshop adjustments are destructive by default – but you can avoid editing the original file thanks to the power of layers.
+So right-click on the Background layer in the Layers panel, then select Duplicate Layer. 
+In the pop-up window, rename the layer “Vignette.”
+With the Vignette layer still selected, click Filter in the Photoshop menu. Then select Lens Correction. 
+A new Lens Correction window will open. Click the Custom tab on the right-hand panel. Under the Vignette heading, adjust the Amount and Midpoint sliders until you’re happy with the vignette effect. 
+Then click OK. 
+If the image looks a little dull after applying the vignette, you can give it a contrast boost with a Curves adjustment layer. You can also adjust the intensity of the colors with a Vibrance adjustment layer. Make edits until you’re satisfied, then call it a day!
+This second method is a little more complex than the Lens Correction method; however, it’s also more flexible. I like to use it when I want to create more sophisticated vignetting effects.
+Here’s how it works:
+With your file open in Photoshop, the first thing to check is that the foreground color swatch is set to black. 
+To revert to the Photoshop default of a black foreground and a white background, press the D key.
+Next, choose Layer in the main menu, then select New Fill Layer>Gradient. Click OK on the first pop-up window that appears. 
+A second pop-up will appear: the Gradient Fill settings window. Make sure to tick the Reverse box (otherwise, your vignette will be inside-out, with the center of the image dark, and the edges of the image untouched by the effect). 
+By default, the Gradient Fill Style will be set to Linear. Change this to Radial – that way, Photoshop knows to create the gradient in a circle, rather than a line. 
+At this point, you should see a vignette applied to your image, but it’ll be extremely intense. You can boost the Scale percentage to alter the strength of the vignette (smaller numbers correspond to a more intense gradient). I usually enter a value around 300% to 350%. 
+Click OK.
+Once you’ve applied the Gradient fill layer, your image may look a little dark and flat. To blend the gradient effect more carefully, make sure the Gradient fill layer is selected, then reduce the opacity of the layer via the Opacity slider. 
+Each image will be different, but I usually reduce the opacity of the Gradient Fill layer to around the 50% mark. Here’s my example image with reduced opacity:
+To further blend the Gradient fill layer with the underlying image, you can also work with Photoshop blending modes. Just click on the blend mode dropdown menu and see what works best for your image. 
+Finally, if your image is still feeling a little flat, make some adjustments with a Curves adjustment layer to boost the contrast.
+Photoshop’s Shape tool has endless uses – including adding a vignette to a photograph. 
+Specifically, by working with an ellipse shape, you can easily create a versatile vignette. Here’s how:
+First, make sure your foreground color is set to black. 
+Then, with your image open in Photoshop, select an ellipse from the Shape Tool menu on the far left Photoshop toolbar. Check to make sure that the Fill swatch located toward the top of the screen in the Shape menu is set to solid black (if it’s not, then double-click and adjust the Fill color).
+Once the color is set, drag the ellipse outline over your image to form an oval shape. When you release the mouse button, the shape will automatically fill with black. 
+With your Ellipse layer selected, click on the Properties window and select the Subtract front shape icon located under the Pathfinder heading (see below). The shape will reverse, creating a black border around a now-transparent ellipse. 
+Make sure the Ellipse layer is selected, then refer back to the Properties menu. 
+This time, click the Masks icon; it looks like a gray circle on a dark background (see below). The Masks menu allows you to adjust the Density and Feather of the Ellipse layer. I usually leave the Density at 100%, but I push the Feather adjustment to its upper limits (which softens the vignette effect).
+To increase the subtlety of the vignette, you can adjust the opacity of the Ellipse layer. Experimenting with different blending modes is another effective way to adjust the impact of the artificial vignette. 
+And feel free to alter the dimensions of the vignette with the Transform options or tweak the contrast and saturation with adjustment layers.
+Once you’re done, you should have a vignette like this:
+As you can see, applying vignettes to your photos in Photoshop doesn’t have to be hard. In fact, it’s really very simple! And it’s fairly customizable, too – which means you can spend plenty of time playing around with the strength, feathering, and position of your vignette effect.
+So open some of your favorite images in Photoshop. See how they look with vignettes. 
+As long as you keep it subtle, I’m guessing you’ll get a great result!
+A vignette is a darkening around the periphery of a photograph. It occurs for various reasons in many photographic circumstances.
+There are several ways to create a vignette in Photoshop. The methods listed in this article are simple and effective ways to apply a vignette aesthetic.
+Unfortunately, Photoshop doesn’t offer a vignette tool. However, you can easily create a vignette with the Shape tool, a Gradient fill layer, or a Lens Corrections filter.
+The easiest way to remove vignetting in post-production is to open the image in Photoshop and – with the image layer selected – click Filter>Lens Correction. The Lens Correction window will present various options for reducing unwanted vignetting.
+....................................."
+Article 9,"Even if you’ve never heard of the Orton Effect, I can guarantee you’ve seen the technique used at some point. The Orton Effect was developed in the darkroom, but it successfully made its way into the brave new world of digital image processing – and now, decades later, it’s regularly used by photographers to give their images a subtle glow.
+Creating an Orton Effect in Photoshop is a fairly simple process, and once you understand the basics, you’ll have no problem adding it to your editing workflow. Below, I explain my simple, step-by-step process for adding a customizable Orton Effect to an image, and I also offer a few tips for implementing the Orton glow along the way.
+Let’s dive right in!
+The Orton Effect is essentially a method for producing soft, pictorial-style images – but it goes so much farther than a simple soft-focus look. 
+(Where did the effect get its name? The inventor, who came up with the approach in the 1980s, was named Michael Orton!)
+The original method involved capturing at least two frames (and often more) of transparency film. You would photograph your subject in focus – and then you would take a second frame, still of the same subject, but this time the subject would be deliberately out of focus and the image would be slightly overexposed. You would then sandwich the frames together to produce what Orton himself called a “painterly” photograph.
+As I said, the Orton Effect was originally applied in the darkroom, but thanks to the power of Photoshop, we can easily recreate the effect. As with most things in Photoshop, there are numerous ways to achieve a similar result. However, the method I share below not only produces the Orton Effect from a RAW file, but it also works very quickly, plus it gives you powerful control over the resulting look.
+Now that you know what the Orton Effect is and how it works, let’s walk through my favorite way achieve the look in Photoshop, starting with:
+You can create the Orton Effect with a straight-out-of-camera JPEG, but I always like to start with a RAW file and apply some basic edits in Lightroom. That way, you can ensure that your image is looking its best before you send it over to Photoshop.
+Note that the Orton Effect can be applied to any image, but you’ll generally want to make sure that the approach fits the subject matter. In other words, when choosing a photo to use, ask yourself: Would a soft, pictorial look suit this photo? Or would it look strange?
+I like to use Orton on my nature images, especially breathtaking landscapes and close-up shots of plants, where the effect can enhance the sky and/or any shallow depth of field effects. However, I wouldn’t be alone in suggesting that the Orton glow looks a bit odd when applied to a gritty street photograph or a tack-sharp product photo filled with lots of fine detail.
+Here’s the example image that I’ll use for this Orton Effect tutorial:
+The next part is important – don’t skip it! Right-click on the photo, then select: Edit In>Open as Smart Object in Photoshop:
+Converting the image to a Smart Object is a crucial step in this process. Yes, it will increase the file size, but it comes with so many benefits that it shouldn’t be avoided. (What are these benefits? I’ll explain more in a second!)
+Once the image loads as a Smart Object in Photoshop, you can begin replicating the Orton technique. 
+The first thing you need to do is copy the base layer (i.e., your original image). But don’t simply duplicate the layer; instead, right-click on the base layer and select New Smart Object via Copy:
+(In other words, you should make sure that your duplicate layer is also a Smart Object.)
+Going back to the darkroom process, think of this second layer as your frame of unfocused transparency film. This layer will add not only the necessary blur but also the slight overexposure.
+Also – and this goes back to why you converted your photo to a Smart Object to begin with – you can now manipulate all the edits you applied in Lightroom while you’re working in Photoshop. It’s all done in Adobe Camera RAW. Just double-click the image to bring up the ACR panel, and make adjustments as needed.
+This allows you to stay completely flexible while you apply the next steps of the Orton Effect!
+Make sure the new copy of your Smart Object layer is selected, because that’s where you’ll apply the blur effect.
+Simply select Filter>Blur>Gaussian Blur in the main menu:
+You’ll see the Gaussian Blur dialog box, and you can tweak the blur Radius slider as needed. 
+(The optimal Radius setting depends on your image size and the degree of blurring you want to achieve. Larger-sized images from high-megapixel cameras generally require a larger radius to create a noticeable result.)
+Once the image is blurred, hit OK. Then head over to the Layers panel and set the Blending Mode to Screen. 
+Not only will this help merge the painterly blur layer with the original image, but it’ll also brighten the result. Talk about two birds with one stone! You can always adjust the opacity of the upper layer until it reaches the desired effect.
+Pat yourself on the back – you just made your very own Orton Effect image! But you don’t have to (and probably shouldn’t) stop there. At this point in the process, I like to make adjustments to my settings that refine the Effect further, and I encourage you to do the same.
+For instance, you can make additional adjustments to the opacity of the layer to soften the effect. You can also use a Brush to selectively remove the effect from areas of the image (you’ll need to use a layer mask for this; simply apply it to the upper layer, make sure the mask is white, then paint in black where you don’t want the glow to appear). 
+Also, don’t forget: Since the image is a Smart Object, all the adjustments in the Camera Raw editor are still at your disposal. All you have to do is double-click the image thumbnail in the Layers panel, and the ACR window will reappear!
+In just a few steps, we went from this:
+To this:
+And if you want to watch me apply the effect step-by-step, here’s a video walkthrough of the process:
+
+The Orton Effect is a super cool editing technique that’s rooted in the golden days of film and darkroom processing. Today, we have digital wizardry at our disposal that can get the same results – so use the technique I shared to start making your own dreamy images!
+It’s easy, fun, and unlike in the darkroom, mistakes cost nothing. Happy Ortoning!
+Now over to you:
+When will you use the Orton Effect to enhance your images? Share your thoughts – and your Orton examples! – in the comments below.
+....................................."
+Article 10,"Polarizing filters are an essential tool for landscape photographers, but here’s the truth: 
+Sometimes, using a polarizer is a bad idea.
+I said it! Yes, not using a polarizing filter for landscape shooting could be considered sacrilegious in some circles, and indeed, I myself have written ad nauseam about the importance of this simple yet powerful photographer’s tool.
+However, today I’m going to selectively contradict myself. Because while a circular polarizing filter can hugely improve your photographs in most outdoor photography situations, there are times when leaving that piece of glass off the lens can actually give better results.
+Below, I list all the times I believe that it’s better to avoid using a polarizing filter, and I include example photos to help you better understand how a polarizer will negatively affect your images in those specific scenarios. 
+So if you’re ready to learn all about the times you should keep your polarizer packed away, let’s get started!
+A polarizer reduces reflected light before it enters your lens. It doesn’t completely eliminate all reflected light; instead, it targets polarized light, which is created when a light source bounces off certain materials.
+Note that circular polarizers are designed for flexibility. These filters include two pieces of glass, and by rotating the front element, you can engage or disengage the polarizing effect.
+Now, a polarizer is useful when shooting reflective surfaces such as water, glass, shiny cars, and wet rocks; by putting a polarizer over your lens, you can cut down on reflections to highlight colors and details underneath. Landscape photographers constantly use polarizers to shoot fall foliage (to reduce reflections on the waxy leaf surfaces) and waterfalls (to reduce reflections on wet rocks), while cityscape and product photographers sometimes like to rely on these filters to avoid extreme reflections on cars and buildings. 
+Most of the time, you want to control those reflective surfaces and reduce the glare of reflected light to let the colors and details underneath shine through. But what if you like that super wet look and glare on certain surfaces? What if you think it enhances your photos? 
+In those cases, you’ll want to leave your circular polarizer in your camera bag. Let me give you some examples where I felt that not using a polarizer actually made for a better image.
+For the image above, I decided to remove my polarizer, and here’s why:
+The reflected light on the wet rocks in the foreground had a distinct red color, which I loved. The rocks were a beautiful deep red that matched the water and the bright sky, and by working without a polarizer, I was able to maintain that harmony throughout the image. 
+Using a polarizer would have reduced the beautiful red reflected light, resulting in a less dramatic image.
+So if you’re faced with a scenario where you appreciate the color of the reflected light, don’t be afraid to take that polarizer off. Reflections can add beautiful color to an image, and that’s not something you want to miss out on!
+Since wet elements tend to produce contrast and desaturate colors, photographers generally use circular polarizers when faced with waterfalls, seascapes, etc. But wet objects can look good in certain situations – sometimes, the wet reflections create pops of brightness that enhance the resulting image.
+For instance, look at the long-exposure image above. If you check out the wet rocks, especially those in the bottom left-hand corner and the wall jutting out in the midground, you’ll notice some bright highlights. A polarizer would reduce contrast in these areas to help the real color of the rocks shine through – but I quite liked the way the highlights caused a soft glare from reflected sunlight.
+So even though the highlights didn’t really have any dramatic color, I still felt that the wet look made for a better image, so I opted not to use the polarizer.
+When the sun has gone down and it’s starting to get dark, there’s little point in using a polarizer. Polarizers only cut down on reflected light, and when the light is dim, reflections are pretty subtle. 
+Plus, using a polarizer in low light will force you to use a longer shutter speed; circular polarizers block out a couple of stops of light, which can make a big difference when you’re working in dim conditions.
+The shot above features a waterfall at Silver Falls State Park. It was a long exposure in very dim light, taken inside a canyon that had no direct sunlight at the time. The only wet surfaces that could cause glare were the leaves in the foreground, and the light was so dim that there was no glare at all.
+Therefore, I opted to leave my polarizer off my lens.
+If you read the last section carefully, you probably know what I’m going to say here. 
+Polarizers only help when dealing with reflected light, and when you’re photographing at night, there won’t be a whole lot of reflected light to handle. 
+Additionally, when you’re photographing at night, you want to get as much light as possible into your lens. A polarizer is going to reduce the amount of light and force you to use a longer shutter speed or a higher ISO setting. 
+So if you’re shooting in the dark, do yourself a favor and remove the polarizer. 
+When capturing the full moon shot above, the polarizer would only have served to slow down my shutter speed, so I kept it stowed away in my bag.
+Sometimes, you come across a scene with reflections in the water, and they look beautiful. One option is to ditch your polarizer and shoot with a bare lens. 
+But let’s say you like the look of your image with the polarizer on. Your colors are nicely saturated and all of the glare has been reduced from the surfaces, but you’re annoyed to see that the lovely reflections in the water have either vanished or diminished.
+What do you do?
+The simple answer is to take two shots – one with the polarizer engaged and another without the polarizer. Then you can blend the two exposures in Photoshop and take the best elements from each. 
+For the shot above, I really enjoyed the look of the reflected waterfall in the pool, so I took two shots with different polarizer settings and then combined them.
+I’m sure I’ll be corrected by our more well-educated readers, but from a polarizer’s standpoint, a rainbow is reflected light. 
+Regardless, if your polarizer is engaged, the rainbow will perform a disappearing act in your photo. 
+Disengage or remove the polarizer and – presto! – the rainbow will be back in your photograph.
+In other words, if you want to photograph a rainbow successfully, where all the colors are as vivid as possible, take that polarizer off. 
+Note: If you want to reduce reflections in other parts of the shot, you can always use the technique I mentioned above, where you capture two shots – one polarized and one unpolarized – and blend the files together.
+As I mentioned at the start of this article, a polarizer is a key landscape photography tool. 
+In fact, if I leave the house and forget my polarizers, I’ll actually turn around and drive home; they’re that important. 
+At the same time, I urge you to learn when conditions call for the removal of your polarizer, and to confidently unscrew that polarizer when the time is right.
+And I hope this article helps you identify those golden moments so that you can get the best possible shots!
+(Of course, if you’re unsure whether to shoot with or without a polarizer in a specific scenario, you can always capture multiple shots, then decide which one you prefer when you’re back at home.)
+Now over to you:
+Do you use a polarizing filter? How often? Are there times when you prefer to go without it? Share your thoughts in the comments below!
+....................................."
+Article 11,"As a photographer who regularly travels, one of my biggest quests isn’t the search for the perfect shot – it’s the search for the perfect camera bag. If you’ve ever purchased a camera bag (or two, or ten), then I’m guessing you know what I’m talking about. 
+With every bag or backpack I’ve ever owned, the internal dividers never seem to fit my gear perfectly. They create compartments that are either too small to hold my lenses or so large that my lenses constantly shift around. The result tends to be a lot of wasted space in the bag, gear that’s not totally secure, and gut-wrenching decisions over which lenses to leave behind.
+Now, I do have a lot of gear; when I travel, I generally like to carry a full-frame camera body, a flash, a set of 4×5 glass filters, a 14-24mm lens, a 16-35mm lens, a 24-120mm lens, an 80-400mm lens, a 105mm macro lens, and a 24mm f/1.4 lens. (Yes, I know there are redundancies, but each lens has a clear purpose!)
+Depending on the type of photography you like to do, you may not carry quite so much. However, a poorly packed camera bag is still a problem you can – and likely will – face.
+So what’s the solution? Below, I explain my approach to optimizing my camera bag space – and I offer a step-by-step process for packing your camera bag more effectively.
+When I was first trying to figure out how to pack my camera bag effectively, I thought the solution might be to get rid of the dividers, as they seemed to be causing most (or all?) of my problems.
+Of course, I couldn’t just remove the dividers and let my gear roll around. I needed a way to pad my equipment – bags get swung around, put down, picked up, and banged into. The gear moves inside it, and without that padding, it’ll eventually suffer damage. 
+One option I tried for padding my precious cameras and lenses was wraps. There are several brands that make wraps specifically for camera gear; these come in varying sizes to fit different pieces of equipment. Here’s one of my camera bags – a ThinkTank Airport model – with the dividers completely removed and the wraps added:
+The problem was, however, that when I went to rewrap my cameras and lenses, it took too much time. If you’re a photographer who uses just one or two main lenses, you don’t often switch equipment, and/or you work in a slower-paced environment, maybe it could work, but it wasn’t right for me. Plus, I didn’t love the wraps I tried, so I eventually went back to the dividers.
+A few years went by, and I begrudgingly continued to use my dividers. But I recently took a few trips where I just couldn’t get the dividers configured properly, and I had to choose something to leave behind. Usually, it meant going without a lens I thought I wouldn’t need – yet in the end, I always ended up wishing I had brought the lens along. As you can probably imagine, this sucked. 
+Eventually, I’d had enough. I went to my local camera store, and I considered the problem again. This time, I found myself staring at neoprene lens pouches. Neoprene pouches provide padding and come in various sizes to fit each lens in my kit, but they’re not too snug, and they’re not overly large, either. 
+I played around with the pouches, and I found that I could position lenses and cameras in the bag against each other. The neoprene is generally 4-5mm thick, so two pouches side by side have about as much thickness as the velcro dividers and therefore provide adequate support. 
+So I purchased enough neoprene pouches, and I pulled all of the velcro dividers out of my backpack. From there, I found I could fit everything pretty nicely, including my 80-400mm lens.
+However, I did notice that, after wearing the backpack while hiking, my gear didn’t always hold its position – the items tended to settle to the bottom, which made it difficult to find things when I opened it. I put on my problem-solving hat, went back to the drawing board, and I finally settled on a hybrid solution that works extremely well. 
+At the bottom of the backpack, I place my 80-400mm lens with no pouch. Then I add a full-width divider, which runs across the length of the backpack to protect the 80-400mm lens.
+Next, I add three lenses in neoprene pouches. Above that, I add a second full-width divider, which leaves me with a large compartment for my remaining lenses (in neoprene pouches), as well as my filters and some smaller accessories like lens cloths. On one side of the large compartment, I use a smaller velcro divider to house my camera.
+Here’s the entire setup in action:
+I recognize that you likely don’t have the same gear as I do. But I think this general approach – where you use some, but not all, of your camera bag’s dividers, and you place any neighboring lenses in neoprene pouches – can work for a whole lot of people. 
+If you think my approach could benefit you, here’s how I recommend you configure and pack your camera bags:
+Using this method to pack your entire gear bag is pretty easy. Here’s the four-step process:
+By the way: I purchased a silver Sharpie marker and some stencils from a craft store to label the outside of each pouch for easy identification. This can be helpful when you need to quickly find a specific lens and you don’t want to waste time peeking in different pouches.
+This approach to packing my camera bag has made a huge difference, and I highly recommend you try it for yourself. 
+Even with all my gear essentials, I find that I can fit more into the camera bag if needed, simply because I’m not limited to what the dividers will allow me to do. It’s still not the ever-elusive “perfect camera bag” that every photographer I know is searching for, but for me, it is just a bit closer. 
+What do you think? What is your ideal camera bag? Have you come up with any other inventive solutions to this issue? Do share your thoughts in the comments below!
+....................................."
+Article 12,"To capture stunning wildlife photos, you must adjust your angle until you’re shooting at the animal’s eye level. (Yes, there are a few exceptions – such as when you’re capturing environmental scenes that include wildlife – but generally speaking, eye-level photos are best.)
+When an animal is close to the ground, however, shooting at eye level can be tricky. If you’ve ever gotten down low to photograph a bird or small mammal from the dirt, you’ll know what I mean: It’s awkward to support yourself, your camera, and your telephoto lens – while also trying to keep your gear from getting dirty or wet.
+One solution is to use a tripod. Most tripods allow you to get quite low by opening the legs out as wide as possible, and some actually open out fully so that the tripod sits flush to the ground. But while this setup will get the job done, it can be pretty awkward to handle, especially if you’re trying to pan with your subject or if you have to follow your subject around.
+That’s where a ground pod comes in. It’s flexible, it’s effective, and it’s easy to make at home. Sure, you can purchase dedicated ground pods from camera manufacturers, but there’s not any real need; I use a DIY ground pod that I created using household materials, and it cost me far less than I would pay for a ground pod from B&H. 
+In this article, I share my step-by-step process for creating a DIY ground pod – so that with a few dollars and a little bit of effort, you can capture low-angle wildlife photography without worrying about your gear.
+A ground pod is a plate/tray with upturned edges that keeps your camera both stable and mobile when you’re shooting in the dirt, mud, or sand. 
+You can attach your camera to the center of the pod, or – for more flexibility – you can screw your tripod head onto the ground pod, then attach your camera to the head. It’ll support your camera just a few inches from the ground, thus offering some protection from water splashes or sand/mud while also allowing easy movement in all directions.
+Now, the benefit of a ground pod is that it lets you capture low-angle photos of wildlife without getting the bottom of your camera or lens covered in grime. But as the photographer, you’ll still get plenty dirty! The pod won’t protect you from the muck, only your camera setup; that’s part of the fun of wildlife photography!
+I wanted a ground pod that would allow me to capture low-angle wildlife shots, but when I looked for commercially available options, I was disappointed to see that they cost around $100 USD. Therefore, I decided to make my own!
+I’m certainly not the first person to do this, but I wanted to share how it is done to illustrate how easy it is to make your own low-level camera support.
+As I said above, materials for a DIY ground pod shouldn’t cost you much at all. You will need:
+The construction of the pod is very simple:
+And that is it!  Simple.
+Just make sure that the pan actually supports your camera and lens without toppling over before putting it to use. If you chose a wide enough pan, this should not be a problem, but test your camera with all your wildlife photography lenses to be safe.
+Well, there you have it! When on a beach, in a field, or shooting in snow, you will find that using a ground pod for support makes getting down low a lot easier, and it’ll let you worry less about your camera gear remaining free from sand, mud, and water. 
+The pan is also far lighter than most tripods – meaning you can carry less weight when out on your next wildlife shoot.
+If you already own a suitable tripod head, this project shouldn’t cost much more than the price of a cheap frying pan, and it’s a great way of supporting your camera at ground level for those powerful and intimate wildlife portraits.
+(Thanks to Rob Cain for taking the picture of my gear on the completed ground pod, above!)
+If you have any tips for creating a ground pod, or any advice for using one successfully, share them in the comments below!
+....................................."
+Article 13,"As a photographer, choosing the best cloud storage isn’t as simple as picking the cheapest option, but it’s not too complicated, either. There are plenty of great choices available, and at the end of the day, the most important thing is that you find a storage package that works for you and suits your needs. 
+Some photographers require terabytes of storage that offer instant access everywhere, while others have far more modest needs. However, a few options stand out among the rest (and there are a few options I think you’d do best to avoid, as well). 
+Until recently, cloud storage for photography was more of a luxury than a necessity. Digital images were shot only with pricey DSLRs or dedicated pocket cameras, stored on desktop computers, backed up to external hard drives, and emailed or posted on social media for sharing with others. Cloud storage was expensive, slow, and burdensome to set up and manage – and often designed for IT professionals and not photographers.
+But modern photography, as the saying goes, requires modern solutions. Cloud storage is now well within reach of even the most casual photographer, and it can also meet the needs of demanding professionals. In fact, there are plenty of cloud storage options available to photographers, and they’re capable of suiting a variety of workflows and storage requirements. 
+Price, speed, and storage capacity are still worth considering, but they’re not the barrier to entry they used to be. Now it’s not a matter of deciding whether cloud storage is right for you (it probably is!). Instead, the question is which cloud storage is best for you, and thankfully, there are a lot of great options.
+While it might seem like a bit of a cop out or an overly simple answer, I really do think that the best cloud storage for iPhone photographers is Apple’s iCloud service. iCloud automatically backs up all the photos on your iPhone and makes them available across all your other Apple devices (including iPads, iMacs, and Macbooks). 
+Your edits also sync across devices, so if you crop a photo on your iPhone, it will appear cropped everywhere else, too. Photos stored in iCloud can be shared with others, and you have the option of storing originals in iCloud while keeping small thumbnails on your iPhone. It’s a great way to free up space on your phone, and it’ll also keep down your costs, since you won’t need to spend hundreds of extra dollars on a phone with more internal storage.
+All iPhone users get 5 GB of iCloud storage for free. This is hardly enough to store more than a handful of photos and videos, and it almost certainly won’t meet your needs if you also need to back up essential iPhone data and documents. 
+Fortunately, the price of iCloud storage is quite reasonable: the lowest-tier option costs just 99 cents/month and gives you 50 GB of cloud storage, while the next tier (and the one I recommend for most people) offers 200 GB of storage for $2.99/month.
+iCloud pros:
+iCloud cons:
+In the same vein as my iCloud recommendation above, the best cloud storage for Android photographers is Google One. It’s inexpensive, easy to use, and integrates seamlessly with Google Photos, one of the most widely used photography platforms in the world. 
+Anyone with a Google account gets 15 GB of storage for free, though while this is more free storage than iCloud offers, it’s pretty limited once you start filling it up with high-resolution photos and videos. It’s also a little frustrating that the free 15 GB version locks users out of some of Google’s photo-editing tools, such as Magic Eraser and Portrait Blur. 
+Fortunately, additional storage is only $2/month for 100 GB. (Once that is exhausted, the next available option is significantly more expensive at $10/month for 2 TB.)
+Google One is easy to recommend for Android users because, like its iCloud counterpart on iPhones, it’s incredibly easy to use. Much of its operation, such as backing up your photos to the cloud, happens automatically without any intervention from the user. Plus, Google Photos does a great job of organizing your images, tagging people, finding objects, and letting you share pictures and videos as needed.
+Google One pros:
+Google One cons:
+Photographers who rely on DSLR and mirrorless cameras generally have different needs compared to their mobile-based counterparts. In other words, if you shoot with a more traditional camera and need to store, organize, and back up thousands (or hundreds of thousands) of high-resolution images and RAW files, you’re going to need something different than iCloud or Google One. Dropbox is the best choice – not just for its price and storage options, but also for certain features that make it uniquely suited to address the needs of DSLR and mirrorless photographers.
+Dropbox is easy to recommend because it does one thing exceedingly well: it offers fast, reliable, highly customizable cloud storage and syncs across all your devices, which is perfect for DSLR and mirrorless shooters. Dropbox has also been around for well over a decade and, as one of the major players in the cloud storage market, is not going anywhere anytime soon; you know your images will be stored securely for years to come. 
+The $10/month plan gives you 2 TB of storage, similar to iCloud and Google One, but Dropbox works incredibly well on laptops, desktops, and both Android and iOS devices. It has no trouble syncing loads of images at high speeds, including RAW files, and allows you to organize your photos however you want.
+Dropbox pros:
+Dropbox cons:
+If you rely on your camera gear to pay the bills, and you have a vast collection of client images you need to store and manage, you’ll want to pay for a cloud storage option that can keep up with your workflow. SmugMug is the best option for professionals because it doesn’t just offer great cloud storage; it also boasts client galleries and e-commerce options for selling images. It’s not cheap, but it’s well worth the price if your livelihood depends on your cameras and the files they produce.
+SmugMug is not designed for amateurs and hobbyists, and there is no free plan. All SmugMug packages, which start at $120/year, are intended for professional photographers and include unlimited photo storage as well as tools to create galleries and websites that effectively showcase your images. The $246/year plan has tools for selling images, watermarking your photos, and delivering files to clients. 
+While casual shooters can certainly use SmugMug’s services, they would do better to choose one of the other options on this list. But for professionals, SmugMug has everything required for a complete cloud-storage, client-gallery, and e-commerce solution, and it’s easy to recommend.
+SmugMug pros:
+SmugMug cons:
+Now, if you enjoy photography and want advanced editing tools to enhance your creativity, but you don’t quite make a living from taking pictures, then I encourage you to subscribe to Adobe’s Lightroom (1 TB) plan. 
+The $10/month option offers 1 TB of cloud storage while also including access to Lightroom, the gold standard in digital asset management and editing. It’s the perfect solution for people who want to move beyond Apple Photos or Google Photos, and it’s easy to recommend because it includes enough storage for tens of thousands of images as well as advanced sharing options. It even includes a full suite of educational tools.
+Lightroom automatically uploads your images to the cloud – whether you use a mobile phone, DSLR, mirrorless model, or any other camera. It syncs your images across all your devices, and it lets you create beautiful custom galleries that you can share online with friends, family, and anyone else. The mobile Lightroom app is incredibly easy to use and offers advanced editing features like masking and color grading, plus it can be accessed on tablets as well as desktops or even just a web browser. 
+Finally, this plan gives users five custom websites through the easy-to-use Adobe Portfolio platform, which is an excellent way to create a publicly-viewable showcase for your images. While the 1 TB plan doesn’t include quite as much storage as other services do for the same price, it’s more than enough for most hobbyist and amateur photographers, and it includes all the software you need to edit, organize, and share your photos, too.
+Adobe Lightroom pros:
+Adobe Lightroom cons:
+Many photographers don’t need the editing tools, sharing options, and additional features that come with other software on this list. Instead, they require rock-solid solutions for simple image backup and recovery. This type of cloud storage typically operates in the background, quietly humming along while backing up everything on your computer (or only certain folders, depending on what you prefer). 
+When disaster strikes and you lose hundreds of thousands of photos, you need a backup option to recover them quickly. There are many great options – such as iDrive, CrashPlan, and Carbonite – but the one I recommend for photographers is Backblaze.
+While it’s not the cheapest option for cloud storage backup, Backblaze isn’t the most expensive. I think it strikes a nice balance between price and features, especially compared to its peers. Backblaze’s $99/year plan will back up all your images with no limit or cap in terms of overall storage, which makes it ideal for photographers, especially those who shoot in RAW. 
+Trust and reliability are also factors here; anyone can make big promises, but the proof is in the pudding. Backblaze has been in business for over 15 years and has built a reputation for trust, security, and reliability during that time. It isn’t a flash-in-the-pan, here-today-gone-tomorrow kind of operation, and you can trust the company to have your photos when you need them.
+Backblaze pros:
+Backblaze cons:
+Not sure if any of my recommendations suit your needs? That’s okay! Here are a few more storage options to consider:
+Amazon Photos: This a good choice if you already pay for Amazon Prime and need a cloud storage option but aren’t ready to commit to another service. It backs up all your images automatically, including RAW files, and allows you to access them from the web or through a mobile app. While Amazon Photos works fine, it’s just not as full-featured as the other options on this list, and I’ve found it to be slow, buggy, and downright frustrating at times. Still, it’s worth considering even as just a simple off-site backup option, especially if you’re already paying for Amazon Prime.
+Personal cloud services: Companies like Synology have been making big inroads into what is basically your own personal cloud service, usually in the form of a small box that sits near your cable modem or router. These NAS (Networked Attached Storage) options won’t save your photos if your house burns down, but they do let you access your images from anywhere and often include mobile apps and sharing functionality. Personal cloud services don’t require subscriptions since you manage the device and the storage on it, and if you run out of space, you can just add another hard drive or SSD. The learning curve is a little steep, so I don’t recommend them for beginners, but these tools are a good option for photographers who don’t mind a high upfront cost and are willing to do a bit of work to manage things on their own.
+One-time-purchase services: There are plenty of subscription-based cloud storage options for photographers, but there are also services that promise essentially the same thing but for a one-time fee. This can sound appealing, but I never recommend such a route. It costs money to maintain servers, develop software, fix software vulnerabilities, and adapt to rapidly changing technologies. Subscription fees offer a way for companies to do all of this, so I would not recommend trusting your photos or other data to any company that claims to do the same for a one-time price.
+The best cloud storage for photographers is a bit subjective, but the options on this list will work great if you fall into one of the categories described above. 
+And if you still aren’t exactly sure what cloud storage will meet your exact needs, just remember that any cloud storage is better than none at all. Try one of the options here, or ask around to see what other photographers prefer. Most cloud storage platforms have trial periods, and even if you sign up for one and don’t like it, you can always cancel and switch to another one. 
+Finally, if you have a storage service you like, share it in the comments below!
+....................................."
+Article 14,"Looking for the perfect creative photography accessories to spice up your photos? You’ve come to the right place.
+In this article, I share my favorite fun photography tools, all of which practically guarantee creative images. I’m talking about filters, lighting accessories, toys, and more to take your images to the next level. 
+(You’ll also find a few more basic items on this list, some of which you may already own – but I make sure to explain precisely how you can use each tool in a new way to capture unique, beautiful, and artistic images.)
+So if you’re ready to discover the coolest photography accessories on the planet, then let’s get to it!
+Strobes are a great piece of creative photography equipment. Yes, they’re a little intimidating to learn, so beginners often eschew strobes in favor of natural light – but if you can master the strobe, you can revolutionize your photography.
+Here are a few techniques you’ll need a strobe for:
+By the way, don’t just buy a single on-camera flash and call it a day. Instead, invest in radio triggers and receivers so you can do off-camera flash photography with multiple strobes. And experiment with modifiers like snoots, umbrellas, softboxes, and color gels for even more artistic flexibility!
+If you’re not sure what strobe to buy, a Yongnuo YN560 IV speedlight is a great beginner pick – not only is it reasonably high-quality, but it’s also very inexpensive, so you can purchase a few without breaking the bank!
+There are lots of ways you can create beautiful light paintings, but the LED light stick is a game-changer for this genre. It’s such a cool photography accessory that, as soon as you try it, you’ll be hooked.
+LED light-stick photography pretty much always involves using lengthy shutter speeds, so a tripod will be required. You can use your light stick to create abstract light paintings, like this:
+The great thing about some light sticks is that they’re fully programmable. You can input the exact light you want to paint and whether it will feature colors, stripes, pictures, or patterns. 
+What light stick should you buy? The Aputure MT Pro is a great choice for beginners – not only does it offer plenty of color and brightness settings, but it’s also pixel-mappable! It’s on the smaller side, but it should definitely be enough for all sorts of creative photography.
+Yes, a tripod is a basic photography accessory, and maybe it doesn’t seem that fun. But I have to mention it, because without a tripod, you’ll fail to pull off many of the techniques on this list – and with a tripod, your creative photography will explode with awesomeness.
+Let’s look at some of the techniques a tripod will allow you to try:
+Here’s a photo that combines digital blending and long exposure techniques:
+Quick tip: Avoid getting a cheap tripod that has unsteady legs, and instead invest in a heavier, sturdier tripod. If you’re traveling and need a light backpack, you can compromise a little. You’ll still want a strong tripod, and preferably a hook on the central tripod pole so you can add more weight once the tripod is set up.
+If you don’t already own a tripod, then I do have a quick recommendation for you: the Benro Roadtrip Pro is sturdy, lightweight, and even comes with a ballhead so you can get started shooting right away. Plus, at $250 USD, it’s a steal!
+The lensball is quite possibly the most fun photography accessory on this list, because it lets you take wild shots that are otherwise impossible. It’s quite cheap, too, and it’s simple – just a crystal ball that you place in front of your lens:
+But lensballs are insanely versatile, and here are just a few of the techniques you can try:
+You can find a variety of different lensballs to choose from on Amazon, but our recommendation is the Lensball Pro, which is high quality and cheap!
+Is there a need for filters when post-processing is so powerful? The answer to that is certainly “Yes,” especially if you wish to spend lots of time photographing (as opposed to post-processing on the computer). Plus, there are some filters that just can’t be replicated by editing software.
+Filters can be used for the following forms of creative photography:
+Like the lensball, the prism refracts light – but it offers a completely different effect.
+For one, you can redirect the light to create interesting doubling effects. And you can also use a prism to project a rainbow onto a surface (maybe even someone’s face!). Really, it’s all about experimentation, so grab a prism, hold it in front of your lens, and go wild!
+Here’s an example of the prism’s interesting double-exposure effect:
+Pretty much any standard prism will work for this; just pick one (or more!) off Amazon to get started. (Note that different prism shapes and sizes will give different effects, so I encourage you to test out a few different models.)
+You might also consider fractal filters, which offer all sorts of cool, fun, prismatic results (especially for portrait photography). This set is a great buy, and it’ll give you three different filters to play around with!
+Steel wool allows you to light paint, but with an urban industrial twist.
+You can use the wool to create lots of flying metal sparks, which will light paint across your photo as they hurtle through the air. This is a really fun technique to try out, but you need to be careful; you’re creating thousands of red-hot metal shards, and each has the potential to start a fire. You’ll need to exercise lots of caution when taking this type of photo. Be sure to avoid locations that could start a forest fire.
+Steel wool can also be used for portrait photography – but ensure the safety of those involved in your photoshoot by thinking through all eventualities, ensuring the portrait subject stays far away from the sparks, and by making sure water is on hand, just in case.
+What’s another fun photography tool you can hold in front of your lens? The metal tube! The diameter of the tube will affect the result you get, but it’s pretty typical to use a copper pipe (you can get one in the plumbing section of your local hardware store).
+The idea is to photograph through the tube, which creates a “ring of fire” within your photo. This ring of fire is actually flare, and you can use it to frame something or someone in your scene.
+Portrait photographers use umbrellas all the time as props, and for good reason: they look great, plus they’re often full of color.
+There are several different ways you might use an umbrella with a model. If you’re photographing your subject’s whole body, the umbrella will take up a small part of the frame. Alternatively, you can use the umbrella as a background, with the model’s head and shoulders featuring in the photo.
+Personally, I’d recommend rainbow-colored umbrellas, traditional paper umbrellas, or transparent umbrellas. 
+(Pro tip: Transparent umbrellas can be held by your subject, but they can also be positioned in front of the lens, with the spokes acting as a frame for your main subject!)
+Is water really a creative photography tool? Absolutely!
+I recommend you carry water with you at all times, which you can use for all sorts of interesting effects. For instance, if you find a cool building, you can create a small puddle on the ground, then photograph the reflection. Note that the puddle doesn’t need to be large; a good wide-angle lens can make the most of a tiny splash of water.
+Water has other uses, as well! Here are a few ideas to try out:
+Hopefully, now that you’ve finished this article, you’re feeling inspired – and you’re ready to grab some cool photography accessories!
+So go out and purchase your tools. Then have fun capturing unique photos!
+Now over to you:
+Do you have any creative photography tools you recommend? Which of the items on this list is your favorite? Share your thoughts in the comments below!
+....................................."
+Article 1,"It's the unofficial theme of this issue, but I'll bet your answer is different from mine, or anyone else's. And that's the whole point: These days it's all personal. Let me explain...
+First of all, right now there are practically no rules. This issue, which showcases some of the best ways American women are rocking their clothes (and their attitudes) now, features minis and maxis, beat-up farm work boots and supersophisticated city boots, outfits a CEO could wear to her IPO and ones you could smash a guitar in. This new fashion freedom is a good, good thing. To quote SNL's Kate McKinnon, ""you do you, boo.""
+With former Secretary of State Clinton at our shoot: It was fascinating to catch her in a relaxed moment.
+Next, there's nothing more stylish than a powerful woman. At Glamour we're into leaders who do their best—and I'm so proud that we were able to sit down with former Secretary of State Hillary Rodham Clinton to hear her surprising take on what women face in the workplace today. Whether you lean left or right, whether you lean in or back, we can all learn from what she calls these ""hard-earned lessons."" That's another thing that's stylish: Admitting we're all works in progress.
+The glamour of real life: Emma Stone's jacket-and-dress combo? Nice.
+....................................."

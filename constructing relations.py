@@ -24,37 +24,32 @@ co_occurrences = defaultdict(int)
 
 # Read preprocessed data from the CSV file
 with open(preprocessed_csv_path, "r", newline="", encoding="utf-8") as file:
-    reader = csv.reader(file)
-    header = next(reader)  # Read the header row
+    reader = csv.DictReader(file)
     for row in reader:
-        if len(row) >= 2:
-            # Tokenize the preprocessed content
-            tokens = row[1].split()
-            # Iterate through the tokens and update co-occurrence counts
-            for i, token in enumerate(tokens):
-                # Stem the token
-                stemmed_token = stemmer.stem(token)
-                # Check if the token is not a stop word
-                if stemmed_token not in stop_words:
-                    # Update co-occurrence counts within the window
-                    for j in range(max(i - window_size, 0), min(i + window_size + 1, len(tokens))):
-                        if i != j:  # Avoid self-loops
-                            # Stem the co-occurring token
-                            co_occ_token = stemmer.stem(tokens[j])
-                            if co_occ_token not in stop_words:
-                                # Update co-occurrence count
-                                co_occurrences[(stemmed_token, co_occ_token)] += 1
-
-# Save the co-occurrence relationships to a CSV file
-output_csv_path = "E:\Github Repos\Classification-of-Documents-Using-Graph-Based-Features-and-KNN\word_relationships.csv"
-with open(output_csv_path, "w", newline="", encoding="utf-8") as file:
-    writer = csv.writer(file)
-    writer.writerow(["Terms", "co-occurrence_counts"])  # Write header row
-    for (term1, term2), weight in co_occurrences.items():
-        writer.writerow([f"{term1} - {term2}", weight])
-
-print(f"Co-occurrence relationships have been saved to {output_csv_path}")
-
+        article_title = row['Title']  # Get the article title
+        # Tokenize the preprocessed content
+        tokens = word_tokenize(row['Content'])  # Assuming preprocessed content is in the 'Content' column
+        # Iterate through the tokens and update co-occurrence counts
+        for i, token in enumerate(tokens):
+            # Stem the token
+            stemmed_token = stemmer.stem(token)
+            # Check if the token is not a stop word
+            if stemmed_token not in stop_words:
+                # Update co-occurrence counts within the window
+                for j in range(max(i - window_size, 0), min(i + window_size + 1, len(tokens))):
+                    if i != j:  # Avoid self-loops
+                        # Stem the co-occurring token
+                        co_occ_token = stemmer.stem(tokens[j])
+                        if co_occ_token not in stop_words:
+                            # Update co-occurrence count
+                            co_occurrences[(stemmed_token, co_occ_token)] += 1
+        # Save the co-occurrence relationships to a CSV file
+        output_csv_path = r"E:\Github Repos\Classification-of-Documents-Using-Graph-Based-Features-and-KNN\word_relationships.csv"
+        with open(output_csv_path, "a", newline="", encoding="utf-8") as file:
+            writer = csv.writer(file)
+            for (term1, term2), weight in co_occurrences.items():
+                writer.writerow([article_title, f"{term1} - {term2}", weight])
+        print(f"Co-occurrence relationships for {article_title} have been saved.")
 
 
 #We read the preprocessed data from the CSV file.

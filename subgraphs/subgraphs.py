@@ -1,7 +1,5 @@
 import pandas as pd
 import networkx as nx
-import itertools
-from collections import defaultdict
 import matplotlib.pyplot as plt
 
 def read_data_from_csv(file_path):

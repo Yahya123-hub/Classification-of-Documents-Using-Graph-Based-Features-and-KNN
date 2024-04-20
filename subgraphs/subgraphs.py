@@ -15,7 +15,7 @@ def read_data_from_csv(file_path):
     - List of tuples (Title, Content)
     """
     data = pd.read_csv(file_path)
-    return list(data.itertuples(index=False, name=None))
+    return list(zip(data['Title'], data['Content']))
 
 def preprocess_text(text):
     """
@@ -79,7 +79,7 @@ def mine_frequent_subgraphs(documents, min_support=0.5):
 # Example usage
 if __name__ == "__main__":
     # Read data from CSV
-    file_path = "data.csv"
+    file_path = "training_data.csv"
     documents = read_data_from_csv(file_path)
 
     # Mine frequent subgraphs

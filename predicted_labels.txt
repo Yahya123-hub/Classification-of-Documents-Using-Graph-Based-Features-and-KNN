@@ -1,0 +1,9 @@
+Test Graph 1: Predicted label: 35, True label: 1
+Test Graph 2: Predicted label: 35, True label: 2
+Test Graph 3: Predicted label: 35, True label: 3
+Test Graph 4: Predicted label: 35, True label: 4
+Test Graph 5: Predicted label: 35, True label: 5
+Test Graph 6: Predicted label: 35, True label: 6
+Test Graph 7: Predicted label: 35, True label: 7
+Test Graph 8: Predicted label: 35, True label: 8
+Test Graph 9: Predicted label: 35, True label: 9

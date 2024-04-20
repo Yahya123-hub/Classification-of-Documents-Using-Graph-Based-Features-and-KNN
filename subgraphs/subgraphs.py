@@ -77,7 +77,7 @@ def mine_frequent_subgraphs(documents, min_support=0.5):
 # Example usage
 if __name__ == "__main__":
     # Read data from CSV
-    file_path = "training_data.csv"
+    file_path = "E:\\Github Repos\\Classification-of-Documents-Using-Graph-Based-Features-and-KNN\\training_data.csv"
     documents = read_data_from_csv(file_path)
 
     # Mine frequent subgraphs

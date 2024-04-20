@@ -1,52 +1,97 @@
-
-import csv
+import pandas as pd
 import networkx as nx
+import itertools
+from collections import defaultdict
 import matplotlib.pyplot as plt
 
-def create_graph_from_csv(csv_path):
-    G = nx.Graph()
-    with open(csv_path, "r", newline="", encoding="utf-8") as file:
-        reader = csv.reader(file)
-        header = next(reader)  # Read the header row
-        for row in reader:
-            if len(row) >= 2:  # Ensure row has at least 2 values
-                article_number, content = row[0], row[1]
-    
-                words = content.split()  # Split content into words
-                for i in range(len(words) - 1):
-                    word1 = words[i]
-                    word2 = words[i + 1]
-                    # Add nodes if not already in the graph
-                    G.add_node(word1)
-                    G.add_node(word2)
-                    # Add edge between words
-                    G.add_edge(word1, word2)
-    return G
+def read_data_from_csv(file_path):
+    """
+    Read data from CSV file.
 
-# Load training data and create graph
-training_csv_path = "training_data.csv"
-training_graph = create_graph_from_csv(training_csv_path)
+    Args:
+    - file_path: Path to the CSV file
 
-def frequent_subgraphs(graph, min_support=0.2, max_size=3):
-    frequent_subs = []
-    for sub_size in range(2, max_size + 1):
-        for subgraph in nx.find_cliques(graph):
-            if len(subgraph) == sub_size:
-                count = 0
-                for node in graph.nodes():
-                    if all(n in subgraph for n in graph.neighbors(node)):
-                        count += 1
-                support = count / len(graph)
-                if support >= min_support:
-                    frequent_subs.append(graph.subgraph(subgraph))
-    return frequent_subs
+    Returns:
+    - List of tuples (Title, Content)
+    """
+    data = pd.read_csv(file_path)
+    return list(data.itertuples(index=False, name=None))
 
+def preprocess_text(text):
+    """
+    Preprocess text data by tokenizing and removing punctuation.
 
-frequent_subgraphs_list = frequent_subgraphs(training_graph, min_support=0.2, max_size=3)  # Adjust min_support and max_size as needed
+    Args:
+    - text: Input text
 
-# Plot the frequent subgraphs
-for i, subgraph in enumerate(frequent_subgraphs_list):
-    plt.figure(figsize=(6, 4))
-    nx.draw(subgraph, with_labels=True, font_weight='bold')
-    plt.title(f"Frequent Subgraph {i+1}")
-    plt.show()
+    Returns:
+    - List of tokens
+    """
+    # Tokenize and remove punctuation
+    tokens = text.split()
+    tokens = [token.strip(",.?!") for token in tokens]
+    return tokens
+
+def generate_graph(text):
+    """
+    Generate a graph representation from text.
+
+    Args:
+    - text: Input text
+
+    Returns:
+    - NetworkX graph
+    """
+    tokens = preprocess_text(text)
+    graph = nx.Graph()
+    for i, token in enumerate(tokens):
+        if i < len(tokens) - 1:
+            next_token = tokens[i + 1]
+            graph.add_edge(token, next_token)
+    return graph
+
+def mine_frequent_subgraphs(documents, min_support=0.5):
+    """
+    Mine frequent subgraphs from a list of documents.
+
+    Args:
+    - documents: List of tuples (Title, Content)
+    - min_support: Minimum support threshold for frequent subgraph mining
+
+    Returns:
+    - List of dictionaries where each dictionary contains frequent subgraphs for one article
+    """
+    frequent_subgraphs_all_articles = []
+
+    for title, content in documents:
+        graph = generate_graph(content)
+        frequent_subgraphs = []
+
+        # Mine frequent subgraphs
+        for component in nx.connected_components(graph):
+            subgraph = graph.subgraph(component)
+            frequent_subgraphs.append(subgraph)
+
+        frequent_subgraphs_all_articles.append({title: frequent_subgraphs})
+
+    return frequent_subgraphs_all_articles
+
+# Example usage
+if __name__ == "__main__":
+    # Read data from CSV
+    file_path = "data.csv"
+    documents = read_data_from_csv(file_path)
+
+    # Mine frequent subgraphs
+    min_support = 0.5
+    frequent_subgraphs_all_articles = mine_frequent_subgraphs(documents, min_support)
+
+    # Plot and save frequent subgraphs as images for each article
+    for i, article_data in enumerate(frequent_subgraphs_all_articles, start=1):
+        title, frequent_subgraphs = list(article_data.items())[0]
+        for j, subgraph in enumerate(frequent_subgraphs, start=1):
+            plt.figure()
+            nx.draw(subgraph, with_labels=True)
+            plt.title(f"Article {i}: {title} - Subgraph {j}")
+            plt.savefig(f"subgraph_article_{i}_{j}.png")
+            plt.close()
